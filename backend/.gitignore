@@ -1,0 +1,51 @@
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# AI model weights and downloaded models
+models/
+model_cache/
+.cache/
+huggingface_cache/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Temporary files
+*.tmp
+*.bak
